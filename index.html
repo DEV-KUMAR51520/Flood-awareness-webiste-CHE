@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flood Awareness</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: azure;
+        }
+
+        header {
+            background-color: aquamarine;
+            color: black;
+            padding: 10px;
+            text-align: center;
+            background-image: url(https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+        }
+
+        nav {
+            background-color: grey;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color:lightblue;
+            border-radius: 5px;
+        }
+
+        img {
+            max-width: 30%;
+            height: auto;
+        }
+    .categories .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    gap:1.5rem;
+}
+
+.categories .box-container .box{
+    padding:3rem 2rem;
+    border-radius: .5rem;
+    background:antiquewhite;
+    box-shadow: var(--box-shadow);
+    outline:var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+}
+
+.categories .box-container .box:hover{
+    outline:var(--outline-hover);
+    outline-offset: 0rem;
+}
+
+.categories .box-container .box img{
+    margin:1rem 0;
+    height:15rem;
+    width: 300rem;
+}
+
+.categories .box-container .box h1{
+   font-size: 2rem;
+   color:var(--black);
+   line-height: 1.8;
+}
+
+.categories .box-container .box p{
+    font-size: 1.7rem;
+    color:var(--light-color);
+    line-height: 1.8;
+    padding:1rem 0;
+}
+.about .dev-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    gap:1.5rem;
+}
+.about .dev-container .box{
+    padding:3rem 2rem;
+    border-radius: .5rem;
+    background:antiquewhite;
+    box-shadow: var(--box-shadow);
+    outline:var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+}
+.about .box-container .box p{
+    font-size: 1.7rem;
+    color:var(--light-color);
+    line-height: 1.8;
+    padding:1rem 0;
+}
+.resources .resources-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    gap:1.5rem;
+}
+.resources .resources-container .box{
+    padding:3rem 2rem;
+    border-radius: .5rem;
+    background:antiquewhite;
+    box-shadow: var(--box-shadow);
+    outline:var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+}
+.resources .resources-container .box:hover{
+    outline:var(--outline-hover);
+    outline-offset: 0rem;
+}
+.resources .resources-container .box img{
+    margin:1rem 0;
+    height:15rem;
+    width: 300rem;
+}
+.resources .resources-container .box p{
+    font-size: 1.7rem;
+    color:var(--light-color);
+    line-height: 1.8;
+    padding:1rem 0;
+}
+.resources .resources-container .box h1{
+   font-size: 2rem;
+   color:var(--black);
+   line-height: 1.8;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Flood Awareness</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#types">Types of Floods</a>
+        <a href="#preventive">Preventive Measures</a>
+        <a href="#recovery">Recovery After Floods</a>
+        <a href="#resources">Additional Resources</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to our Flood Awareness website</h2>
+        <p>At our site, you'll find all the information you need about floods. We strive to educate and provide
+            resources to help you understand flooding, take preventive measures, and recover after a flood event.
+            Join us in creating a flood-resistant future!.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fygvMjMiGOQ?si=xjz3apT2oD2I9G8W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           
+    </section>
+
+    <section id="about">
+        <h1>ABOUT</h1>
+        <div class="dev-container">
+            <div class="box">
+                <p>Learn more about the causes and effects of floods, how they impact communities, and why it's crucial to
+                    take preventive measures. Discover fascinating facts about different types of floods and the long-term
+                    consequences they can have on the environment.
+                    </p>
+                <img src="image/BB.webp" alt="">
+                <img src="image/dd.webp" alt="">
+                <img src="image/cc.jpeg" alt="">
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="categories" id="categories">
+
+        <h1 class="heading"> TYPES OF FLOODS  </h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="image/background.jpg" alt="">
+                <p>Learn about the rapid formation
+                    and devastating consequences
+                    of flash floods, caused by intense
+                    rainfall in a short period of time.
+                    </p>
+        
+                <a href="#" class="btn">KNOW MORE</a>
+            </div>
+    
+            <div class="box">
+                <img src="image/flash.jpg" alt="">
+                <p>Discover how prolonged periods
+                    of heavy rain or snowmelt can
+                    lead to river flooding, affecting
+                    large areas with slow-moving
+                    water.</p>
+        
+                <a href="#" class="btn">KNOW MORE</a>
+            </div>
+    
+            <div class="box">
+                <img src="image/coastal.jpg" alt="">
+                <p>Explore the unique challenges
+                    posed by coastal flooding, the
+                    result of storm surges, high
+                    tides, and sea-level rise
+                    impacting coastal communities</p>
+        
+                <a href="#" class="btn">KNOW MORE</a>
+            </div>
+    
+            <div class="box">
+                <img src="image/river (2).jpg" alt="">
+                <p>Explore the unique challenges
+                    posed by coastal flooding, the
+                    result of storm surges, high
+                    tides, and sea-level rise
+                    impacting coastal communities</p>
+        
+                <a href="#" class="btn">KNOW MORE</a>
+            </div>
+    
+
+    
+        </div>
+    
+    </section>
+    
+
+    <section id="preventive">
+        <h2>Preventive Measures</h2>
+        <p>Steps to be safe from the destruction of floods:</p>
+        <ul>
+            <li>Emergency Preparedness</li>
+            <p>Understand flood warnings and
+                weather alerts, and learn how
+                to prepare your family and
+                property for an impending flood
+                event.</p>
+            <li>Flood Barriers</li>
+            <p>Discover how proper
+                infrastructure planning and
+                development can enhance
+                flood resilience and reduce the
+                impact on local communities.</p>
+            <li>Land Use Planning</li>
+            <p>Explore creative ways to
+                engage your community and
+                spread awareness about flood
+                risks.Together, we can create a
+                culture of preparedness</p>
+        </ul>
+    </section>
+
+    <section id="recovery">
+        <h2>Recovery After Floods</h2>
+        <p>Things you can do after a flood for restoration:</p>
+        <ul>
+            <li>Safety Measures</li>
+            <p>Learn about the critical steps to take after a
+                flood, including how to ensure personal
+                safety and assess the damage to your
+                property.</p>
+            <li>Cleaning and Disinfecting</li>
+            <p>Discover effective strategies for cleaning up
+                and restoring your home after a flood, as
+                well as tips for documenting the damage for
+                insurance purposes.</p>
+            <li>Insurance Information</li>
+            <p>Find guidance on how to rebuild your
+                community stronger and more resilient,
+                incorporating flood-resistant design and
+                sustainable practices</p>
+            <li>Mental Health Support</li>
+            <p>Understand the emotional toll that floods
+                can have and explore resources available to
+                help you and your loved ones cope with the
+                aftermath.</p>
+        </ul>
+    </section>
+
+    <section id="resources">
+        <h1 class="heading"> ADDITIONAL RESOURCES  </h1>
+        <div class="resources-container">
+        <h4>Explore more about floods</h4> 
+        <h1>Government Agencies</h1>
+        <div class="box">
+            <img src="image/ga.jpeg" alt="">
+            <p>Access a list of government
+                agencies and organizations
+                that offer flood-related
+                resources, including flood
+                maps, educational materials,
+                and assistance programs.</p>
+            </div>
+            <h1>NGO and Aid Organizations</h1> 
+            <div class="box">
+            <img src="image/ngo.jpeg" alt="">
+            <p>Access a list of NGO's
+                and organizations
+                that offer flood-related
+                resources, including Food, educational materials,
+                and assistance programs.</p>
+            </div>
+            <h1>Research and Reports</h1>
+            <div class="box">
+                <img src="image/gra.png" alt="">
+            <p>Explore the latest research
+                and studies on floods,
+                climate change, and their
+                interconnection. Gain
+                valuable insights into the
+                future of flood management</p>
+            </div>
+        
+    </section>
+</body>
+</html>
